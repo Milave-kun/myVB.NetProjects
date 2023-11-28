@@ -1,0 +1,17 @@
+C:\Users\johnd\OneDrive\Desktop\Point of Sale System\Point of Sale System\bin\Debug\Point of Sale System.exe.config
+C:\Users\johnd\OneDrive\Desktop\Point of Sale System\Point of Sale System\bin\Debug\Point of Sale System.exe
+C:\Users\johnd\OneDrive\Desktop\Point of Sale System\Point of Sale System\bin\Debug\Point of Sale System.pdb
+C:\Users\johnd\OneDrive\Desktop\Point of Sale System\Point of Sale System\bin\Debug\Point of Sale System.xml
+C:\Users\johnd\OneDrive\Desktop\Point of Sale System\Point of Sale System\bin\Debug\Guna.UI.dll
+C:\Users\johnd\OneDrive\Desktop\Point of Sale System\Point of Sale System\obj\Debug\Point of Sale System.vbproj.AssemblyReference.cache
+C:\Users\johnd\OneDrive\Desktop\Point of Sale System\Point of Sale System\obj\Debug\Point_of_Sale_System.Form1.resources
+C:\Users\johnd\OneDrive\Desktop\Point of Sale System\Point of Sale System\obj\Debug\Point_of_Sale_System.Resources.resources
+C:\Users\johnd\OneDrive\Desktop\Point of Sale System\Point of Sale System\obj\Debug\Point of Sale System.vbproj.GenerateResource.cache
+C:\Users\johnd\OneDrive\Desktop\Point of Sale System\Point of Sale System\obj\Debug\Point of Sale System.vbproj.CoreCompileInputs.cache
+C:\Users\johnd\OneDrive\Desktop\Point of Sale System\Point of Sale System\obj\Debug\Point of Sale System.vbproj.CopyComplete
+C:\Users\johnd\OneDrive\Desktop\Point of Sale System\Point of Sale System\obj\Debug\Point of Sale System.exe
+C:\Users\johnd\OneDrive\Desktop\Point of Sale System\Point of Sale System\obj\Debug\Point of Sale System.xml
+C:\Users\johnd\OneDrive\Desktop\Point of Sale System\Point of Sale System\obj\Debug\Point of Sale System.pdb
+C:\Users\johnd\OneDrive\Desktop\Point of Sale System\Point of Sale System\bin\Debug\MetroFramework.Design.dll
+C:\Users\johnd\OneDrive\Desktop\Point of Sale System\Point of Sale System\bin\Debug\MetroFramework.dll
+C:\Users\johnd\OneDrive\Desktop\Point of Sale System\Point of Sale System\bin\Debug\MetroFramework.Fonts.dll

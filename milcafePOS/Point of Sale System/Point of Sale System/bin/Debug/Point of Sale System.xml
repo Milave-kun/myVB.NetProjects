@@ -1,0 +1,231 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Point of Sale System
+</name>
+</assembly>
+<members>
+<member name="T:Point_of_Sale_System.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Point_of_Sale_System.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Point_of_Sale_System.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Point_of_Sale_System.My.Resources.Resources.Brown_and_White_Modern_Cafe_Logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of_Sale_System.My.Resources.Resources.hotBlackCoffee">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of_Sale_System.My.Resources.Resources.hotCappucino">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of_Sale_System.My.Resources.Resources.hotCappucino1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of_Sale_System.My.Resources.Resources.hotMatchaLatte">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of_Sale_System.My.Resources.Resources.hotMocha">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of_Sale_System.My.Resources.Resources.hotSpanishLatte">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of_Sale_System.My.Resources.Resources.hotSpanishLatte1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of_Sale_System.My.Resources.Resources.hotSpanishLatte2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of_Sale_System.My.Resources.Resources.icedBlackCoffee">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of_Sale_System.My.Resources.Resources.icedCappucino">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of_Sale_System.My.Resources.Resources.icedMatchaLatte">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of_Sale_System.My.Resources.Resources.icedMocha">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of_Sale_System.My.Resources.Resources.icedSpanishLatte">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Point_of_Sale_System.My.Resources.Resources.logoutButton">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Point_of_Sale_System.salesInfo">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Point_of_Sale_System.salesInfo.salesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Point_of_Sale_System.salesInfo.salesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Point_of_Sale_System.salesInfo.salesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Point_of_Sale_System.salesInfoTableAdapters.salesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Point_of_Sale_System.salesInfoTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Point_of_Sale_System.salesInfoTableAdapters.TableAdapterManager.UpdateUpdatedRows(Point_of_Sale_System.salesInfo,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Point_of_Sale_System.salesInfoTableAdapters.TableAdapterManager.UpdateInsertedRows(Point_of_Sale_System.salesInfo,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Point_of_Sale_System.salesInfoTableAdapters.TableAdapterManager.UpdateDeletedRows(Point_of_Sale_System.salesInfo,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Point_of_Sale_System.salesInfoTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Point_of_Sale_System.salesInfoTableAdapters.TableAdapterManager.UpdateAll(Point_of_Sale_System.salesInfo)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Point_of_Sale_System.salesInfoTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Point_of_Sale_System.salesInfoTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Point_of_Sale_System.salesInfoDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Point_of_Sale_System.salesInfoDataSet.salesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Point_of_Sale_System.salesInfoDataSet.salesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Point_of_Sale_System.salesInfoDataSet.salesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Point_of_Sale_System.salesInfoDataSetTableAdapters.salesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Point_of_Sale_System.salesInfoDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Point_of_Sale_System.salesInfoDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Point_of_Sale_System.salesInfoDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Point_of_Sale_System.salesInfoDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Point_of_Sale_System.salesInfoDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Point_of_Sale_System.salesInfoDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Point_of_Sale_System.salesInfoDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Point_of_Sale_System.salesInfoDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Point_of_Sale_System.salesInfoDataSetTableAdapters.TableAdapterManager.UpdateAll(Point_of_Sale_System.salesInfoDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Point_of_Sale_System.salesInfoDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Point_of_Sale_System.salesInfoDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
